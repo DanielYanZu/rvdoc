@@ -1,12 +1,11 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { Icons, MdocSiteContext } from '@rcdoc/theme';
-import simulatorModel from './android-device-skin.png';
 import MarkdownPageContext from '../../context';
-import './index.less';
 import Flex from '@rcdoc/theme/components/Flex';
 import Dropdown from '@rcdoc/theme/components/Dropdown';
 import { QRCodeCanvas } from 'qrcode.react';
+import './index.less';
 
 const RCDOC_SIMULATOR_IFRAME_ID = 'rcdoc-simulator-iframe';
 
@@ -43,7 +42,7 @@ const Simulator = ({ hashHistory }) => {
   if (!src) return null;
   return (
     <div className="doc-simulator">
-      <div className="doc-simulator__wrapper" style={{ backgroundImage: `url(${simulatorModel})` }}>
+      <div className="doc-simulator__wrapper">
         <Icons.DeviceBarIcon className="doc-simulator__bar" />
         <iframe
           id={RCDOC_SIMULATOR_IFRAME_ID}

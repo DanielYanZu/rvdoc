@@ -23,34 +23,34 @@
     line-height: 1.5;
   }
   h1 {
-    margin: 30px 0;
-    font-size: 30px;
+    margin: 10px 0 30px;
+    font-size: 32px;
     cursor: default;
     font-weight: bold;
   }
   h2 {
     margin: 60px 0 20px;
-    font-size: 26px;
+    font-size: 28px;
     font-weight: bold;
   }
   h3 {
     margin: 45px 0 20px;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 24px;
   }
   h4 {
     margin: 24px 0 12px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
   }
   h5 {
     margin: 24px 0 12px;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
   }
   p {
     color: var(--mdoc-md-text-color);
-    font-size: 15px;
+    font-size: 16px;
     line-height: 26px;
     margin: 16px 0;
   }
@@ -75,15 +75,18 @@
     td {
       padding: 8px;
       border-top: 1px solid var(--mdoc-md-table-border-color);
+      font-weight: 400;
+      font-family: Consolas, Menlo, Monaco, Andale Mono, Ubuntu Mono, monospace;
+      -webkit-font-smoothing: subpixel-antialiased;
       &:first-child {
         padding-left: 0;
+        white-space: nowrap;
         // version tag
         code {
           margin: 0;
           padding: 2px 6px;
           color: var(--mdoc-link-color);
           font-weight: 600;
-          font-size: 11px;
           background-color: fade(@van-doc-blue, 10%);
           border-radius: 20px;
         }
@@ -94,6 +97,7 @@
     }
     em {
       font-style: normal;
+      color: #ac9739;
     }
   }
   ul {
@@ -109,7 +113,8 @@
       position: relative;
       margin: 5px 0 5px 0;
       color: var(--mdoc-md-text-color);
-      font-size: 14px;
+      font-size: 16px;
+      line-height: 1.8;
     }
   }
   hr {
@@ -124,7 +129,6 @@
     display: inline;
     margin: 0 2px;
     padding: 2px 5px;
-    font-size: 14px;
     font-family: inherit;
     font-weight: 600;
     word-break: keep-all;

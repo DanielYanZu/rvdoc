@@ -1,6 +1,6 @@
 {
   "name": "@rcdoc/cli",
-  "version": "0.1.24",
+  "version": "0.2.4",
   "description": "",
   "type": "module",
   "main": "dist/index.js",
@@ -19,12 +19,9 @@
     "build": "tsup --dts",
     "dev": "tsup --watch",
     "prepare": "pnpm build",
-    "prepack": "pnpm build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepack": "pnpm build"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.16.10",
     "@babel/preset-env": "^7.16.11",
@@ -75,5 +72,8 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "repository": "https://github.com/3lang3/rcdoc.git",
+  "license": "MIT",
+  "author": "3lang3"
 }

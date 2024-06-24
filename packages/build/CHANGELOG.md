@@ -1,5 +1,29 @@
 # @mdoc/build
 
+## 0.1.15
+
+### Patch Changes
+
+- ignore
+
+## 0.1.14
+
+### Patch Changes
+
+- ignore
+
+## 0.1.13
+
+### Patch Changes
+
+- ignore test
+
+## 0.1.12
+
+### Patch Changes
+
+- update pkg info
+
 ## 0.1.11
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@rcdoc/create",
-  "version": "0.0.0-dev.1",
+  "version": "0.0.4",
   "description": "Create rcdoc app",
   "main": "dist/index.js",
   "bin": {
@@ -22,9 +22,12 @@
     "rcdoc"
   ],
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "license": "MIT",
+  "repository": "https://github.com/3lang3/rcdoc.git",
+  "author": "3lang3",
   "dependencies": {
     "chalk": "^4",
     "consola": "^2.15.3",

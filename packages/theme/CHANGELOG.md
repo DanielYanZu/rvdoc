@@ -1,5 +1,29 @@
 # @mdoc/theme
 
+## 0.1.12
+
+### Patch Changes
+
+- ignore
+
+## 0.1.11
+
+### Patch Changes
+
+- ignore
+
+## 0.1.10
+
+### Patch Changes
+
+- ignore test
+
+## 0.1.9
+
+### Patch Changes
+
+- update pkg info
+
 ## 0.1.8
 
 ### Patch Changes

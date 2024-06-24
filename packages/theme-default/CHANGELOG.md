@@ -1,5 +1,72 @@
 # mdoc-theme-default
 
+## 0.2.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @rcdoc/theme@0.1.12
+
+## 0.2.1
+
+### Patch Changes
+
+- ignore
+- Updated dependencies
+  - @rcdoc/theme@0.1.11
+
+## 0.2.0
+
+### Minor Changes
+
+- ignore
+
+## 0.1.20
+
+### Patch Changes
+
+- ignore test
+- Updated dependencies
+  - @rcdoc/theme@0.1.10
+
+## 0.1.19
+
+### Patch Changes
+
+- update pkg info
+- Updated dependencies
+  - @rcdoc/theme@0.1.9
+
+## 0.1.18
+
+### Patch Changes
+
+- dev release
+
+## 0.1.17
+
+### Patch Changes
+
+- dev release
+
+## 0.1.16
+
+### Patch Changes
+
+- Y
+
+## 0.1.15
+
+### Patch Changes
+
+- dev release
+
+## 0.1.14
+
+### Patch Changes
+
+- dev release
+
 ## 0.1.13
 
 ### Patch Changes

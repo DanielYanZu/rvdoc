@@ -1,5 +1,29 @@
 ## <small>1.3.1 (2022-04-13)</small>
 
+## 0.0.6
+
+### Patch Changes
+
+- ignore
+
+## 0.0.5
+
+### Patch Changes
+
+- ignore
+
+## 0.0.4
+
+### Patch Changes
+
+- ignore test
+
+## 0.0.3
+
+### Patch Changes
+
+- update pkg info
+
 ## 0.0.2
 
 ### Patch Changes
